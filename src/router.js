@@ -50,6 +50,11 @@ export default new Router({
       path:'/myalert',
       name: 'myalert',
       component: () => import('./views/MyAlert.vue')
+    },
+    {
+      path:'/vuex',
+      name: 'vuex',
+      component: () => import('./views/Vuex.vue')
     }
   ]
 })

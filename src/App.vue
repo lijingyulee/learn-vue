@@ -9,6 +9,7 @@
       <router-link to="/delegate">delegate</router-link> |
       <router-link to="/slot">slot</router-link> |
       <router-link to="/myalert">myalert</router-link> |
+      <router-link to="/vuex">vuex</router-link> |
     </div>
     <router-view/>
   </div>
