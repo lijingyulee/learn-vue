@@ -25,6 +25,11 @@ export default new Router({
       path:'/class',
       name: 'class',
       component: () => import('./views/Class.vue')
+    },
+    {
+      path:'/event',
+      name: 'event',
+      component: () => import('./views/Event.vue')
     }
   ]
 })
