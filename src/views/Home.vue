@@ -17,6 +17,10 @@
       <span>{{ text }}</span>
       <input type="text" v-model="text"/>
     </div>
+    <div id="example">
+      <p>Original message: "{{ comMsg }}"</p>
+      <p>Computed reversed message: "{{ reversedMessage }}"</p>
+    </div>
   </div>
 </template>
 
@@ -36,11 +40,17 @@ export default {
         {name: 'rose'},
         {name: 'mike'}
       ],
-      text: ''
+      text: '',
+      comMsg: 'vuejs'
     }
   },
   components: {
     //HelloWorld
+  },
+  computed: {
+    reversedMessage(){
+      return this.comMsg.split('').reverse().join('')
+    }
   }
 }
 </script>
