@@ -30,6 +30,16 @@ export default new Router({
       path:'/event',
       name: 'event',
       component: () => import('./views/Event.vue')
+    },
+    {
+      path:'/form',
+      name: 'form',
+      component: () => import('./views/FormStudy.vue')
+    },
+    {
+      path:'/delegate',
+      name: 'delegate',
+      component: () => import('./views/Delegate.vue')
     }
   ]
 })

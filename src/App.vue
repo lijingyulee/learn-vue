@@ -5,6 +5,8 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/class">Class</router-link> |
       <router-link to="/event">event</router-link> |
+      <router-link to="/form">form</router-link> |
+      <router-link to="/delegate">delegate</router-link> |
     </div>
     <router-view/>
   </div>
