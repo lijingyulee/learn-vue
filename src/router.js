@@ -40,6 +40,16 @@ export default new Router({
       path:'/delegate',
       name: 'delegate',
       component: () => import('./views/Delegate.vue')
+    },
+    {
+      path:'/slot',
+      name: 'slot',
+      component: () => import('./views/slot/Parent.vue')
+    },
+    {
+      path:'/myalert',
+      name: 'myalert',
+      component: () => import('./views/MyAlert.vue')
     }
   ]
 })

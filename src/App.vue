@@ -7,6 +7,8 @@
       <router-link to="/event">event</router-link> |
       <router-link to="/form">form</router-link> |
       <router-link to="/delegate">delegate</router-link> |
+      <router-link to="/slot">slot</router-link> |
+      <router-link to="/myalert">myalert</router-link> |
     </div>
     <router-view/>
   </div>
