@@ -90,6 +90,8 @@
 
         17、数组的遍历方法 forEach；filter；some；map
 
+        18、for-in循环用来遍历对象属性。for-of循环用来遍历数据—例如数组中的值。
+
       </textarea>
   </div>
 </template>
