@@ -9,6 +9,7 @@
       <router-link to="/slot">slot</router-link> |
       <router-link to="/myalert">myalert</router-link> |
       <router-link :to="{name:'vuex'}">vuex</router-link> |
+      <router-link :to="{name:'note'}">note</router-link> |
     </div>
     <router-view/>
   </div>

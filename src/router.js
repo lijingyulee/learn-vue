@@ -55,6 +55,11 @@ export default new Router({
       path:'/vuex',
       name: 'vuex',
       component: () => import('./views/Vuex.vue')
+    },
+    {
+      path:'/note',
+      name: 'note',
+      component: () => import('./views/Note.vue')
     }
   ]
 })
